@@ -1,0 +1,30 @@
+{
+  "name": "wechat-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "HelloRuiLi <1229668446@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src",
+    "test": "tsc && ava -v --no-cache",
+    "dev": "nodemon --exec ts-node src"
+  },
+  "devDependencies": {
+    "@types/koa-static": "^2.0.22",
+    "@types/supertest": "^2.0.0",
+    "ava": "^0.17.0",
+    "koa-static": "^2.0.0",
+    "nodemon": "^1.11.0",
+    "supertest": "^2.0.1",
+    "ts-node": "^2.0.0",
+    "typescript": "^2.1.4"
+  },
+  "dependencies": {
+    "@types/koa": "^2.0.37",
+    "@types/koa-router": "^7.0.21",
+    "@types/qs": "^6.2.30",
+    "koa": "2",
+    "koa-router": "^7.1.0",
+    "qs": "^6.3.0"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "wechat-service",
+  "name": "wechat-oauth",
   "version": "1.0.0",
   "main": "index.js",
   "author": "HelloRuiLi <1229668446@qq.com>",
@@ -20,9 +20,11 @@
     "typescript": "^2.1.4"
   },
   "dependencies": {
+    "@types/axios": "^0.9.34",
     "@types/koa": "^2.0.37",
     "@types/koa-router": "^7.0.21",
     "@types/qs": "^6.2.30",
+    "axios": "^0.15.3",
     "koa": "2",
     "koa-router": "^7.1.0",
     "qs": "^6.3.0"

@@ -1,4 +1,4 @@
-import {getAuthorizeUri} from '../wechat';
+import {getAuthorizeUri} from '../wechat/oauth';
 import {test} from 'ava';
 
 test('getRedirectUrigetRedirectUri', (t) => {

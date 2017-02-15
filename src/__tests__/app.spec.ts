@@ -1,5 +1,5 @@
 import {test} from 'ava';
-import app from '../app';
+import app from '../index';
 import * as supertest from 'supertest';
 
 const request = supertest.agent(app.listen());

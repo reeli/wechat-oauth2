@@ -12,6 +12,7 @@
 <button id="btn">Auth Button</button>
 <script>
   document.querySelector('#btn').addEventListener('click', () => {
+    window.location = `/authorize?state=${encodeURIComponent(location.href)}`;
   });
 </script>
 </body>

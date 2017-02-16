@@ -12,7 +12,7 @@ const router = new Router();
 router.get('/authorize', authorize);
 router.get('/authorize/callback', authorizeCallback);
 
-app.use(serve('.'));
+app.use(serve('assets'));
 
 app
     .use(router.routes())

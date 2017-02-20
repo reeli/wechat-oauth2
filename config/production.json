@@ -1,0 +1,7 @@
+{
+  "API_BASE_URL": "https://api.weixin.qq.com",
+  "OAUTH2_BASE_URL": "http://open.weixin.qq.com/connect/oauth2",
+  "APP_SECRET": "32b208d4226adbc336e428add917de3c",
+  "APP_ID": "wxd5fdb27781a67d8e"
+}
+

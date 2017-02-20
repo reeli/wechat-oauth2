@@ -12,12 +12,12 @@ export const authorize = (ctx) => {
 };
 
 export const authorizeCallback = async(ctx) => {
-    const {query:{state}} = ctx;
-    const result = await getAccessTokenByCode(ctx.query.code);
+    const {query:{state, code}} = ctx;
+    const result = await getAccessTokenByCode(code);
     const access_token = result.data['access_token'];
     const openid = result.data['openid'];
     const result2 = await getUserInfo({access_token, openid});
     const userInfo = result2.data;
+    console.log(userInfo);
     ctx.redirect(`${state}?${qs.stringify(userInfo)}`);
 };
-

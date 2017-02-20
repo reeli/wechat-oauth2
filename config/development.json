@@ -1,0 +1,6 @@
+{
+  "API_BASE_URL": "/wechat",
+  "OAUTH2_BASE_URL": "/wechat/connect/oauth2",
+  "OAUTH2_HOST": "http://localhost:3000"
+}
+
